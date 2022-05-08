@@ -1,0 +1,125 @@
+
+/* . -> Indicar classes 
+.mainparagraph{
+    color:cadetblue
+} */
+
+/* # -> Indicar id 
+#mainpar{
+    color: chocolate;
+}
+
+* -> Ta indicando tudo do código
+*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: white;
+
+}
+#container{
+    background:url("./img/background.jpeg");
+    padding-bottom: 140px;
+}
+#botao-entrar{
+    background-color: #e50914;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right; /* jogar o componente todo pro lado direito */
+    cursor: pointer;
+}
+#cabecalho{
+    padding: 28px 56px ;
+}
+h1{
+    text-align: center;
+    font-size: 3.120rem;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#paragrafo-assista{
+    font-size: 1.625rem;
+    text-align: center;
+    margin-top: 10px;
+}
+#paragrafo-pronto{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 14px;
+}
+#formulario{
+    display: flex; /*forma como quero que minha id organize meus itens- flex: */
+    justify-content: center ; /*alinhar o conteudo se fica pra esquerda ou pra direita*/
+    height: 60px !important;
+    margin-top: 20px;
+    min-width: 450px;
+}
+input{
+    min-width: 450px;
+    padding-left: 10px;
+}
+#botao-email{
+    width: 185px;
+    background-color: #e50914;
+    font-size: 1.625rem;
+    border: 0;
+    cursor: pointer;
+}
+#botao-email:hover{
+    opacity: 0.6;
+}
+#rodape{
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 70px 0px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+#botao-pergunta{
+    width: 800px;
+    background-color: #303030;
+    height: 70px;
+    border: 0px;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /*linha só dauele elemento, bloqueada, display: como o elemento vai se comportar, botão:inline precisa mudar o display, as divs ja vem com o display block*/
+    cursor: pointer;
+}
+#img-pergunta{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg);
+}
+#img-pergunta-girar{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+#pergunta{
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none; /*nenhum display não mostrar nada na tela ao carregar*/
+}
+.paragrafo-pergunta{
+    font-size: 24px;
+}
