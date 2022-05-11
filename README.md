@@ -4,7 +4,7 @@
 
 Interface da plataforma Netflix para aprofundar os conhecimentos das tecnologias HTML, CSS, e JavaScript.
 
-## 🔧 Funçoes do Projeto
+## 🔧 Funções do Projeto
 
 ### Função 01:
 
