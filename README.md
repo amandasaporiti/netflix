@@ -1,6 +1,6 @@
 # Netflix
 
-<img src="./img/netflix-gif.gif" alt="exemplo imagem">
+<img src="./img/netflix-gif.gif" alt="Interface-Netflix-gif" width="100%">
 
 Interface da plataforma Netflix para aprofundar os conhecimentos das tecnologias HTML, CSS, e JavaScript.
 
